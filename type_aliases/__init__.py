@@ -5,12 +5,12 @@ from typing import TypeAlias
 Any: TypeAlias = typing.Any
 Bool: TypeAlias = bool
 Bytes: TypeAlias = bytes
-Dict = dict
 Callable = abstract_base_classes.Callable
+Dict = dict
 Float: TypeAlias = float
 Int: TypeAlias = int
-Iterable = typing.Iterable
-Iterator = typing.Iterator
+Iterable = abstract_base_classes.Iterable
+Iterator = abstract_base_classes.Iterator
 List = list
 Literal = typing.Literal
 LiteralString: TypeAlias = typing.LiteralString
