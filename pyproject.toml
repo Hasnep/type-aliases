@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "type-aliases"
-version = "0.0.2"
+version = "0.0.3"
 description = "Consistent type aliases for Python"
 authors = ["Hannes <h@nnes.dev>"]
 license = "GPL-3.0-only"
