@@ -17,12 +17,8 @@ pyright = "^1.1.327"
 [tool.ruff]
 select = ["ALL"]
 ignore = [
-    "E203", # whitespace-before-punctuation
-    "E501", # line-too-long
-    "F401", # unused-import
     "D",    # pydocstyle
-    "FURB", # refurb
-    "LOG",  # flake8-logging
+    "E501", # line-too-long
 ]
 fixable = ["F", "E", "W", "I"]
 unfixable = ["UP"]
