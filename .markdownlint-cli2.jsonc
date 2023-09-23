@@ -1,8 +1,0 @@
-{
-  "config": {
-    "line-length": false,
-    "no-duplicate-heading": false,
-    "no-trailing-punctuation": false,
-    "no-bare-urls": false
-  }
-}
