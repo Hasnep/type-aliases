@@ -1,3 +1,4 @@
+import collections.abc as abstract_base_classes
 import typing
 from typing import TypeAlias
 
@@ -5,6 +6,7 @@ Any: TypeAlias = typing.Any
 Bool: TypeAlias = bool
 Bytes: TypeAlias = bytes
 Dict = dict
+Callable = abstract_base_classes.Callable
 Float: TypeAlias = float
 Int: TypeAlias = int
 Iterable = typing.Iterable
