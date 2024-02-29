@@ -27,17 +27,22 @@ repos:
     hooks:
       - name: Validate Python
         id: check-ast
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.0.291
+  - repo: local
     hooks:
       - name: Format Python files
         id: ruff-format
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.0.291
+        language: system
+        entry: python -m ruff --format
+        types: [python]
+        pass_filenames: false
+  - repo: local
     hooks:
       - name: Lint Python files
         id: ruff
-        args: [--fix, --exit-non-zero-on-fix]
+        language: system
+        entry: python -m ruff check --fix
+        types: [python]
+        pass_filenames: false
   - repo: local
     hooks:
       - name: Type-check Python files
