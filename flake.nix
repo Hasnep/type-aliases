@@ -52,6 +52,10 @@
                     };
                   };
                 };
+                packages = [
+                  pkgs.markdownlint-cli2
+                  pkgs.nodePackages.prettier
+                ];
               }
             ];
           };
